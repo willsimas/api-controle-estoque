@@ -27,7 +27,7 @@ $result = api_request('get_all_products', 'GET');
             <center>
                 <?php 
                     foreach($result['data']['results'] as $product) {
-                        echo "<center>". $product['product_name'] . "</center><br>";
+                        echo "<center>". $product['product_name'] . "- - -" . $product['product_price'] .  " </center><br>";
                     }
                 ?>
             </center>
