@@ -2,9 +2,9 @@
 
 class Conexao {
     private $host = 'localhost';
-    private $dbname = 'salao_cassia';
-    private $username = 'root'; // Substitua pelo seu nome de usuário do banco de dados
-    private $password = ''; // Substitua pela sua senha do banco de dados
+    private $dbname = 'nome-do-seu-banco-de-dados'; // NAME OF YOUR DATABASE
+    private $username = 'root';
+    private $password = '';
     private $pdo;
 
     public function __construct() {
